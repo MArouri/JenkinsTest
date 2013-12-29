@@ -10,4 +10,14 @@ public class TestMainApp extends TestCase {
 	public void test(){
 		assertEquals(true, true);
 	}
+	
+	@Test
+	public void testMyFunction(){
+		
+		String testString = "TestString";
+		MainApp mainApp = new MainApp();
+		String resultString = mainApp.myFirstFunction(testString);
+		
+		assertEquals(testString, resultString);
+	}
 }

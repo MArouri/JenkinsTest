@@ -19,5 +19,7 @@ public class TestMainApp extends TestCase {
 		String resultString = mainApp.myFirstFunction(testString);
 		
 		assertEquals(testString, resultString);
+		
+		assertNotSame(testString, resultString);
 	}
 }

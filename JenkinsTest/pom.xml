@@ -24,9 +24,8 @@
 				<version>2.5</version>
 				<configuration>
 					<includes>
-						<include>**/Copy*.java</include>
-						<include>**/When*.java</include>
 						<include>**/*Test.java</include>
+						<include>**/Test*.java</include>
 					</includes>
 					<parallel>classes</parallel>
 					<threadCount>4</threadCount>

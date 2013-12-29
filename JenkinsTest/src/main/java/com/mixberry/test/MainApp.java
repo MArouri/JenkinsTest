@@ -8,8 +8,8 @@ public class MainApp {
 	
 	/**
 	 * My first function comment
-	 * @param message, this variable will be returned as it is
-	 * @return
+	 * @param message this variable will be returned as it is
+	 * @return the message parameter as it is
 	 */
 	public String myFirstFunction(String message){
 		

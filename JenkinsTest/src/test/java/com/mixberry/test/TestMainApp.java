@@ -7,8 +7,18 @@ import junit.framework.TestCase;
 public class TestMainApp extends TestCase {
 
 	@Test
-	public void test(){
-		assertEquals(true, true);
+	public void testMainFunction(){
+		
+		boolean thrown;
+		
+		try {
+			MainApp.main(null);
+			thrown = false;
+		  } catch (IndexOutOfBoundsException e) {
+		    thrown = true;
+		  }
+
+		  assertFalse(thrown);
 	}
 	
 	@Test
